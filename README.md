@@ -1,4 +1,4 @@
-# 🧠 Chimera Colab Brain v7.2 — UNLEASHED
+# 🧠 Chimera Colab Brain v7.2.1 — UNLEASHED
 
 Mirror of `ScottzillaSystems/colony/colab_brain.ipynb` — hosted here so Google Colab's
 **GitHub open format** works reliably (Colab's `#fileUrl` fragment is deprecated).
@@ -39,6 +39,7 @@ Then Runtime → Restart session → Run All. Expect `[TIER] 14b` + Cell 5: READ
 
 ## Changelog
 
+- **v7.2.1** — FIX: MODEL_ID defined in every VRAM tier (was NameError on GGUF tiers → /v1/models 500)
 - **v7.2** — T4 tier → huihui Qwen3-14B-**abliterated** Q4_K_M (uncensored, bartowski quant)
 - **v7.1.1** — fixed T4 tier GGUF repo (lm-kit/qwen-3-14b-instruct-gguf, verified real)
 - **v7.1** — added T4-class tier (Qwen3-14B Q4_K_M via llama.cpp)
